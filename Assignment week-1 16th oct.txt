@@ -1,0 +1,52 @@
+﻿Assignment Week-1 16th Oct 
+
+
+Que1      What are Primitive Data Types in Java
+                    These are primitive data type byte short int,long,float,double,char boolean in java
+                        
+Que2      What are Identifiers in java
+                     Identifier in java anything which can you use for identification They can be class name 
+                     Variables name method name label name and many more There are some reserved
+                     Words that can not use like identifiers
+                    
+Que3      What is final class in java
+                     If class is marked final that class can not participating inheritance it would not inheritable  
+                     Child class 
+
+
+Que4      What are two ways to make a class final
+                     Frist way to make class final if applied the final at class that class will become final 
+                     Another way if applied private at constructor  the class will become final
+
+
+Que5      Can we create an instance of final class in another class
+                    Yes we create an instance of final class in another class but can not be inheritable child 
+                     Class
+
+
+Que6      What is volatile keyword used for
+                      Volatile keyword used for only one thread should access the variable value 
+
+
+Que7     What is the use of transient keyword 
+                    If applied transient keyword at data that data can not serialised
+
+
+Que8     What are the types of casting 
+                   i. Primitive type casting  
+                     When the data is cast  form primitive type first data should be primitive data type and      
+                      second data should be also primitive data type it is called primitive type casting      
+                    ii.Drive type casting
+                   One data is cast from drive data and another data should be drive data it is called drive 
+                       Type casting
+                        
+Que9    What is boxing and unboxing
+                   Converting primitive type of variable into object is referred as boxing 
+                   Converting object into primitive type of variable is referred as unboxing
+
+
+Que10  What are the different between keyword identifier and literals
+              Identifier which can you use for identification they can be class name variable
+                 Name method name and more
+                  Keyword are the reserved word that have pre define meaning for the compiler
+                Literals are the value asinine the identifier
