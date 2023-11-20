@@ -1,0 +1,138 @@
+       Assignment week-2 23th Oct 
+ 
+Ques1   List the operators in java 
+        
+        a.   Arithmetic operator(+,-,*,/,%)
+             That given operators are Arithmetic operators that use calculate value
+        b.   Relational operator (<,<=,>,>=,==,!=)
+             That give operators are Relational operators basically that use compaire two values
+        c.   Logicale operator (&&,||)
+        d.   Assignment operator(=)
+        e.   uniary operator(++,--)
+        f.   Bitwise operator(!,~) 
+
+Ques2   Explain about increment and decrement operators and give example
+        increment operator (pre,post)
+        ++++++++++++++++++
+        (post)increment operator is frist use the value then increment value
+        (pre) increment operator is increment value then use the value
+Ex      class Aks{
+         public static void main(String[]args){
+          int i=0;
+          System.out.println(i++);//0
+          System.out.println(i);//1
+          System.out.println(++i);//2
+}
+}    
+
+  
+        decrement operator (pre,post)
+        ++++++++++++++++++
+        (post)decrement operator is frist use the value then decrement value
+        (pre) decrement operator is decrement value then use the value
+Ex      class Aks{
+         public static void main(String[]args){
+          int i=0;
+          System.out.println(--i);//-1
+          System.out.println(i--);//-1
+          System.out.println(i);//-2
+}
+}    
+
+Ques3  What are the conditional operator in java
+       which operators give use the boolean vlaue it is called conditional operators
+       Logical operators(&&,||)
+       ternary operator(?:)
+     
+ Ex    
+  a. int a=10;
+     int b=12; 
+     int c=15;
+     if(a>10&&b<20) //this condition give the boolean value
+          c++;
+     else 
+        c--;
+     System.out.println(c);//14
+      
+b.
+        condation?true:false;
+         int a=10;
+         int b=12;
+         int c=a>b?10:30;
+         System.out.println(c);//30 
+
+Ques4   What are the types operators base on the number of operands 
+        unary operator only involve one operands(x++)
+        Binary operator involve two operands(x+y)
+        tenary operator involve three operands condation?true:false;
+
+Ques5  What are the conditional statements and use of conditional statements
+          if(condition)
+           //body
+          else
+          //
+        if condition is true the if block will be excuited if block false the else block will be excuited 
+       based upon program you can use nested if else conditional statement
+
+Ques6 What is the syntax of if else statement
+       if(condition1){
+         //body
+      }else if(condition2){
+       //body
+      }else{
+      //body
+    }
+Ex     int a = 0;
+        if (a > 0) {
+            System.out.println("if block");      
+        } else if (a < 0) {
+            System.out.println("else if block");
+        } else {
+            System.out.println("else block");
+        }
+Ques7  What are the three types iterative statement in java
+       iterative statement
+       ++++++++++++++++++
+      a.for
+      b.while
+      c.doWhile
+Syntax 
+++++++
+ for(initalization;condition;increment/decrement){
+          //for loop body
+      }
+
+Syntax 
+++++++
+        while(condition){
+        //while loop body
+        }
+Syntax 
+++++++     
+do{
+//body of loop
+}while(condition);
+
+
+Ques8 What is array in java
+     Array is linear data stucture that store the collection of 
+     similar data elements it is called Array
+     every array in java treated as objecte,object can be create only for class
+     every array in java there is an inbuilt class associted
+     int arr[]={1,2,3,4,5,6,7};
+
+
+Ques9 How to create an array
+     in java arrya createing 3 way
+     int arr[];//Array declaration
+     int arr[]=new int[2];//Array construction
+     //initalization
+     arr[0]=12;
+     arr[1]=13;
+     one more shortcut array createing way
+     int[]arr={1,2,3,4,5,5};
+
+Ques10 state the difference between StringBuffer and StringBuilder in java
+    these are two object create mutable String
+  StringBuffer=>  All methd StringBuffer is Synchronized
+  StringBuilder =>All method StringBuilder is not Synchronized
