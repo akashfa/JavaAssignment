@@ -1,4 +1,4 @@
-       Assignment week-2 23th Oct 
+       Assignment week-2 23rd Oct 
  
 Ques1   List the operators in java 
         
