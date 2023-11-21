@@ -1,0 +1,80 @@
+Ques1 what is difference between JVM JRE and JDK
+      
+      JVM ( java virtual machine)
+      jvm give the instruction for computer to run the java programe
+      that is responsive bytecode change to machine level code
+      JRE(java runtime environment)
+      JRE include jvm along with library and other requriment for java
+      Application
+      JDK contains JRE as well as tool requriment for  creating java Application 
+
+Ques2 How is java programming language machine and platfrom independent
+      it is language compile time generation of byte code so java is platfrom 
+      independent
+
+Ques3 Explain how java code executed by the jvm 
+      interpeter one by one line code read
+      JIT complier keep  trak the statement exection program that change the 
+      machine code to send for cpu thus jvm exectued code
+      performance would be high because of jit complier
+
+Ques4 What is use of var-args 
+     var-args of use different diffrente argument pass the same method name var-args
+     accepte all
+      class Aks{
+       public static void add(int... a){
+         int sum=0;
+         for(int b:a){
+            sum+=b;
+         }
+        System.out.println(sum);
+ 
+       public static void main(String[]args){  
+         
+         add()
+         add(10,30)
+         add(30,40,50,60);
+
+       }
+}
+
+Ques5 What are the types of variable in java
+      1. depending upon position and declaration of variable
+       local variable
+       ++++++++++++++
+       local variable is create inside the method
+       scope:: inside the method and memory will be delocated once come out
+       the method 
+       instance variable
+       ++++++++++++++++
+       instance variable is create inside the class are called instance
+       scope::object ot object and memory will be give  creation object
+       static variable
+       ++++++++++++++
+       which variable create using static keyword inside the class are called
+       static variable 
+       scope::comman every object and memory will be give .class loading time for
+       static variable
+      2. depending upon type of value hold by variable
+         primitive variable
+         int d=10;
+         reference variable
+         String str=new String("Akash Sharma);
+
+Ques6 How many type of memory areas allocated by JVM 
+     a. Method Area
+     b. Heap Area
+     c. Stack Area
+     d. Pc Register
+
+
+Ques7 What is Just-in-Time complier in java(JIT)
+      JIT complier keep  trak the statement exection program that change the 
+      machine code to send for cpu performance would be high because of jit complier     
+ 
+  
+
+
+         
+
+   
