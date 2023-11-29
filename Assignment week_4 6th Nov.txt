@@ -1,0 +1,71 @@
+          Assignment week_4 6th Nov
+
+Ques1 What is an Exception in java
+      During program execution unexpated event or error  might occr that distrub the normal 
+      flow of execution in java program it is called an Exception
+
+Ques2 What are the types of Exception in java
+      There are the two types Exception in java
+      a.built in Exception
+         i.CheackedException
+         ii.UncheackedException
+      b.Custome Exception/user define Exception
+
+Ques3 How to Exceptions Handled in java
+
+      a.Frist Way to Handled Exception
+      Risky code write under the try block that block throw the Exception for catch block
+      catch block handled the exception
+
+      b.Second Way to Handled Exception
+      whene ever using throws keyword this is not heandle himself which throw the another
+      method ya block for handled an Exception
+
+Ques4 What are the important method defined in java Exceptions class
+      a. getMassage(); //cause of the Exception name
+      b. printStackTrace();//casue of the Exception name and complite print Stack trace
+      c. toString();   //cause of the Exception name of the Exception
+   
+Ques5   What are runtime Exception in java
+          program execution time it is unwanted event that distrub normal flow of execution in java program
+          int a=10;
+          int b=0;
+          int c=a/b;//ArithmeticException
+      
+          Integer a=Integer.parseInt("nine")//NumberFormatException
+
+Ques6  What is difference between throws and throw
+        Throws->you are wrote the code but you are not write handled code only informa
+        caller object handled it
+        
+       Throw-> i am also write handled code and inform to caller object you also handled it
+
+Ques7  What is difference between Exception and Error
+       Exception-> An unwanted event that distrubs the normal flow fo execution program is called Exception
+       if Exception occur in program we can handled it using (try-cathc) block catch block using
+       write handleing code
+       Error->  An unwanted event that distrubs the normal flow fo execution program but unwanted event
+       we can not handled it
+
+Ques8 Explain hierarchy of Exceptions in java
+          Object
+            |
+         Throwable
+             |
+          Exception
+             |
+   --------------------------------------
+   | checkedException                    | uncheckedException
+RunTimeException                IO Exception
+    |                     FillnotFoundException
+AirthmeticException
+NullPointerException
+IndexOutOfBoundException
+
+Ques9 Define Packages in java
+
+
+
+          
+       
+      
