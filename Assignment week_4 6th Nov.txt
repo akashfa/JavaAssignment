@@ -63,6 +63,36 @@ NullPointerException
 IndexOutOfBoundException
 
 Ques9 Define Packages in java
+      Group of class/interface/annotations which provides use access to proper namespace that
+      is called package
+
+Ques10 What are access modifiers in java
+        it provides some restristions on the visibility of the class fields method constructors
+        private public protected default
+
+Ques11 What are non-access modifiers in java
+        static final abstrace Synchronized
+
+      Static->
+
+      class
+      only mark inner class as static but can not mark outer class static
+      fields
+      yes mark field static but static field can not given memory with respecte to objecte and
+      give the memory with respecte to class
+      method
+      if mark the method static without objecte creating call method
+      final
+
+      class 
+      yes we can mark class as final if we mark final then class would not participate in inheritance
+      fields
+      yes we can marka fields as final if we mark then those variables are called as
+      complierTimeConstant
+      method
+       yes we can mark method as final but we can not overriden method
+
+
 
 
 
