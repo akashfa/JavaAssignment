@@ -1,0 +1,55 @@
+﻿Assignment Questions
+1. What is Git?
+Git is a free and open-source version control system that tracks changes in computer files and folders. It's like a time machine for your project,
+
+2. What do you understand by the term 'Version Control System'?
+A version control system (VCS) is a tool that helps you keep track of changes made to files over time if you mess something up, collaborate with others on projects, and see how things have changed.
+
+3. What is GitHub?
+GitHub is a popular online service where you can store your Git repositories  Think of it as a social network for code, where you can share projects, collaborate with others, and find new code.
+
+4. Mention some popular Git hosting services.
+a.GitLab      b.Bitbucket
+
+5. Different types of version control systems
+Centralized VCS: This type has a central server that stores all the versions of your files. Subversion (SVN) is a common example.
+Distributed VCS: This type, like Git, stores a complete copy of the project history on every user's machine. This makes it more flexible and reliable.
+
+6. What benefits come with using GIT?
+Track changes: See exactly what changes were made to your files and who made them.
+Collaboration: Work with others on projects and easily merge your changes.
+Revert mistakes: If you make a mistake, you can easily go back to a previous version of your files.
+
+7. What is a Git repository?
+A Git repository is a directory that contains all the information about your project, including all the versions of your files and folders. 
+
+8. How can you initialize a repository in Git?
+To create a new Git repository, follow these steps:
+1. Open a terminal or command prompt.
+2. Navigate to the directory where you want to create the repository using the cd command.
+3. Type git init and press Enter. This creates a hidden .git directory that stores the project's history.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Cracking the Coding Interview in JAVA - Foundation
