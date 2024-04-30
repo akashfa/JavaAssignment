@@ -1,0 +1,25 @@
+﻿Assignment Questions 
+1. How to check if git is available on your system?
+You can typically check for git by opening a terminal and typing git --version. If Git is installed, it will show you the version number.
+
+2. How to initialize a new Git repository?
+Open a terminal, navigate to your project directory using cd, and then type git init. This creates a new Git repository in your directory.
+
+3. How to tell git about your name and email?
+Use the commands git config --global user.name "Your Name" and git config --global user.email "your_email@example.com" to set your name and email address.
+
+4. How to add a file to the staging area?
+Use the git add command followed by the file name to add a file to the staging area. For example, git add readme.txt adds the file "readme.txt" to the staging area.
+
+5. How to remove a file from the staging area?
+Use git rm --cached filename to remove a file from the staging area.
+
+6. How to make a commit?
+Once you've added files to the staging area, you can create a commit with a message using git commit -m "Your commit message".
+7. How to send your changes to a remote repository?
+
+You'll typically need to set up a remote repository on a service like GitHub or GitLab first. Then, use git remote add origin remote_repository_url to add the remote repository. Finally, use git push origin main to push your local commits to the remote repository's "main" branch.
+
+8. What is the difference between clone and pull?
+* git clone creates a copy of a remote repository on your local machine.
+* git pull fetches changes from the remote repository and merges them into your local branch.
