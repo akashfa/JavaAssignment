@@ -1,0 +1,60 @@
+Assignment Question and Answer
+
+1 what is statically typed and dynamically typed language
+i. Statically type language
+before run the program compiler check these are give variable assign compatible data type yes or not
+example- statically type language java C++ C#
+ii. dynamically type language 
+this is not checking compile time this language checking variable assign compatible data type at the execution time
+example- python,javaScript 
+
+2 What is variable in java
+variable is a data type every variable hold specify data type like(char,int,float,)
+example int a=10;
+int -datatype ,a -variable name ,= assignment operator ,10 value
+
+3 How to assign a value to variable 
+ i.define a datatype         int
+ii.define variable name      sum
+iii.use assignment operator  =
+iv given the value           100
+int sum=100;
+
+4 What are primitive datatype in java
+primitive datatype directly supported by language this data type represent simple value
+byt,short,int,,long,float,double,boolean,char
+
+5 What are the identifier in java
+identifier is a name it can be className,methodName,lableName,VariableName,InterfaceName .etc
+
+6 List operator in java
+ a. Assignment operator 
+ b. Arithmetic operator
+ c. Relational operator
+ d. logical    operator
+ e. Bitwise    operator
+ f. unary      operator
+ g. ternary    operator
+ h. instanceof operator
+
+7 Explain increment and decrement operator with help of example
+increment operator -> post increment-> first use value then increment
+per increment -> first increment value then use
+Example->  int a=10;  //12
+      int b=a++; //10
+      int c=++a; //12
+      System.out.println(a+" "+b+" "+c);
+
+decrement operator->post increment-> first use value then decrement
+per increment -> first decrement value then use
+Example-> int a=10;  //8
+      int b=a--; //10
+      int c=--a; //8
+      System.out.println(a+" "+b+" "+c);
+
+
+
+
+
+
+
