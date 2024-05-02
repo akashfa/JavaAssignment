@@ -1,0 +1,77 @@
+Assignment Question answer 
+
+1 What is conditional operator in java
+Conditional operator are two type
+i. Logical operator 
+   logical (&&) operator-> if applying the logical operator make sure both operands condition true then logical operator will be
+   work if first operands condition false then logical and operator body will not executed 
+ii. Ternary Operator 
+   this operator take three operands (condition)?(expression_if_true):(expression_if_false); 
+   if condition is true then expression_if_true operands executed if condation is false the expression_if_false operands executed 
+
+2 What are the type of operators based on number of operands 
+  a. Unary Operators 
+     i.increment  ii.decrement 
+  b Ternary Operators 
+  c compression operators ==,<,>,>=,<=,!=
+  d Arithmetic Operators  +,-,*,/,%
+  e logical    operators  &&,||
+  f Assignment operators =,+=,-=,*=,/=,%=
+
+3 What is use of Switch case in java programming 
+  you are using multiple time if  else statement this is not  right approach then go to the switch case statement 
+  
+4 What are priority level of Arithmetic operators in java
+ i.Multiplication (*) Division (/) modules (%) these are give operators all the same priority these operators executed left to
+ right 
+ Ex 2*3+6 -> (2*3)+6-> 6+6=12
+Additions (+) Subtraction (-) These are operators also same priority  left to right
+Ex-> 10-2*3 ->10-6=4
+
+5 What are the condition statement and use of conditional statement in java
+ a. if statement _>this base statement if condition is true then body executed 
+ b  if-else statement -> this is extends of if statement this is provide alternative body 
+    if condition is false then else block body will be executes 
+ c  else-if statement -> this statement provide multiple condition if condition is false then check else-if this is condition is true body
+    executes 
+d   Switch case Statement 
+    this statement use multiple way one variable hold different type of data  according this variable executes the block of code
+6 What is the syntax of if else statement
+   if(condition){
+      //body
+   }else{
+       //body
+     }
+7 What are the three type iteration statement in java
+  a. for loop
+    fist initialization then condition checking then increment /decrement 
+    according this for loop body executed 
+ b. while loop in this loop before condition checking then body executes 
+ c. do-while loop in this first body executes after condition checking 
+
+8 What are the difference between for loop and do-while loop
+   a  for loop
+    fist initialization then condition checking then increment /decrement 
+    according this for loop body executed 
+  c. do-while loop in this first body executes after condition checking 
+9 write a program to print numbers from 1 to 10
+
+   class Aks{
+      public static void main(String[]args){
+          for(int i=1;i<=10;i++){
+          System.out.println(i);
+         }
+       }
+     }
+
+
+
+ 
+
+  
+ 
+
+ 
+ 
+   
+  
