@@ -1,0 +1,31 @@
+   Assignment question and answer
+
+1  How to create an object in java
+     creating an object with help of new keyword followed by class name and parentheses  hold the argument 
+     construct this construct initialization object state 
+
+2  What is the use of new keyword in java
+    when ever use new keyword you are assign heap memory for new object this memory size depend you object field 
+    after using new keyword followed by class constructor call  
+
+3  What are different type of variable in java
+   i. Primitive Data type
+      these data type associated with language these are represent simple value store 
+      byte short int long float double Boolean char
+   ii. Non primitive data type 
+        user define and built in data type that store reference of object in memory 
+        object hold data and method
+        String Array class Interface
+
+4 What are the difference between instance and local variable in java
+  i. instance variable -> variable define inside class this variable scop object limit this variable access 
+   inside the method outside method and  inside block 
+  ii. local variable ->if you are define  variable inside the block you can access only inside block not outside the block
+
+5 In which area memory allocated instance and local variable
+    instance variable memory will exist heap area and local variable memory exist at execution time 
+
+6 What is the method overloading 
+ single method we can use different way that is called method overloading method name same and can pass different-different parameter 
+      
+       
