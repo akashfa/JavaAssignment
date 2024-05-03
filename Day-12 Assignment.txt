@@ -1,31 +1,24 @@
 ﻿Arrays in Java Assignment Questions
- 
-Assignment Questions 
-Qus1 of ans
+       Assignment Questions 
+1 What do you mean by an array
 An array is store only  homogeneous value and single variable hold multiple value  in the array
 
-
-Qus 2 of ans
+2 How to create an array
 (data type)(variable name)[]=new(data type)[];
 Syntex :
 Int arr[] = new int [];
 
+3 Can you canhge array size at the run time
+  We can not change the size at run time because array size fixe at the  array creation time memeory allocated
 
-Qus 3 of ans
-We can not change the size at run time
+4 What is the default value of arrya
+  Array default value depends on data type it can be primitive and reference
 
+5 Can you declare an array without size of arry
+  we can not declare an array without size of array because array need memory for declare an array
 
-Que 4 of ans
-You can not declare an array without assigning the size of an array
-
-
-Qus 5 of ans
-An array default value is zero(0)
-
-
-Qus 6 of ans
-1d array holding the value only single row
-Ex;
+6 What is a 1D Array with an Example
+1d array holding same data type  value only single row
 Int array[] ={1,2,3,4,5,6};
 Int n=array.length;
 for(int i=0;i<n;i++){
@@ -33,24 +26,16 @@ System.out.print(array[i]+” “);
 }
 Output : 1 2 3 4 5 6
 
-
-Qus  7 of ans
-Int array[][]={
-                      {1,2,3,4,5},
-                      {6,2,3,4,5},
-                      {1,8,3,4,5}   };
-Int row=3;
-
-
+7 Write an program on a 2D array
+int array[][]={{1,2,3,4,5},{6,2,3,4,5},{1,8,3,4,5}   };
+int row=3;
 for(int i=0;i<row;i++){
 for(int j=0;j<array[i].length;j++){
 System.out.print(array[i][j]+” “);
 }
 System.out.print();
 
-
 }
                     
 
 
-Cracking the Coding Interview in JAVA - Foundation
