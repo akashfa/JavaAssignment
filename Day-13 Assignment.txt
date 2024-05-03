@@ -1,0 +1,68 @@
+    Assignment Question Answer
+
+1 What is default value of array for different data type?
+  Array is default value depend on what type of data it can be primitive and reference  
+  i. primitive data type
+     Numeric type(byte short int long) default value 0
+     Floating type data (float double) default value 0.0
+     Boolean data type default value false
+     character data type default value null
+  ii.Reference type
+    object(custom , string class etc) default value null
+    this reference is not hold any memory
+
+2 Can you pass negative number in array size
+   i. Logical limitation 
+       Array size refer number of element it can hold if pass negative number it can not makes seance 
+       Array meant for storing collection of item 
+
+3 Where dose array stored in jvm memory 
+   Array create using new keyword that allocated memory in heap for object
+
+4 What are the disadvantage of array
+  Array are typically fixe size data structure  allocated in memory at creation 
+
+5 What is anonymous array in java give an example 
+    you do not assign separate variable hold the array reference  and directly creation array using curly braces {}
+
+class Akash{
+   public static void printMethod(int arr[]){
+       for(int data:arr){ 
+          System.out.println(data);
+    }
+   }
+  
+  public static void main(String []args){
+        printMethod(new int[]{1,2,3,4,5});
+
+
+       }
+      }
+
+6 What are the different way traverse an array in java 
+   int arr[]={1,2,3,4,5,6};
+  for loop
+    for(int i=0;i<arr.length;i++){
+       System.out.println(arr[i]);
+      }
+  for-each
+      for(int data:arr){ 
+        System.out.println(data);
+      }
+
+        
+  while loop 
+     int i=0;
+      while(i<arr.length){
+           System.out.println(arr[i]);
+         i++;
+      }
+
+7 What are the different between length and length metho in given an examples
+  length.
+   length are array propriety you can use dot natation after the variable name this return 
+   size of the array
+  length()
+   length() are string method this method applied only on String object you can use after the variable 
+   it return number of character present in the string 
+  
