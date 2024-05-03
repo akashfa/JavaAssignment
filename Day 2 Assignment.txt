@@ -1,0 +1,30 @@
+﻿                 Computer Basics Assignment Questions 
+                       Assignment Questions
+1 what is an computer
+     Computer is an electronic device that is designed to work give  some Information
+     input format then provide solution output format  
+              
+2 What is Ram
+    Ram ( Random Access Memory)is the physical hardware inside a computer that
+    temporarily stores data  serving as the computer memory
+
+3 Where data store in a computer 
+    Computer is stored data in hard disk 
+
+4 What is that input device used to type text and number on a document in the computer system
+    Keyboard is input device use to type text and number on a document  in the computer system
+
+5 What are the output device 
+    An output device is a piece of computer hardware that receives data from a computer   
+    and then translates that data into another form. 
+    Ex: Monitor  ,Printer ,Headphones, Computer Speakers ,Projector
+
+6 Which is the input device that allows a user to move the cursor or pointer on the screen
+    Mouse is input device that allow a user to move the cursor or pointer on the screen
+ 
+7 Which language is directly understood by the computer without a translation program 
+    Binary language is directly understood  by the computer without translation program
+
+8 What are input devices
+ An input device is essentially a piece of hardware that sends data to a computer.  The most common input devices are the mouse 
+ and the Keyboard but there are many others.
