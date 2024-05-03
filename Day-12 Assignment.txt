@@ -1,0 +1,56 @@
+﻿Arrays in Java Assignment Questions
+ 
+Assignment Questions 
+Qus1 of ans
+An array is store only  homogeneous value and single variable hold multiple value  in the array
+
+
+Qus 2 of ans
+(data type)(variable name)[]=new(data type)[];
+Syntex :
+Int arr[] = new int [];
+
+
+Qus 3 of ans
+We can not change the size at run time
+
+
+Que 4 of ans
+You can not declare an array without assigning the size of an array
+
+
+Qus 5 of ans
+An array default value is zero(0)
+
+
+Qus 6 of ans
+1d array holding the value only single row
+Ex;
+Int array[] ={1,2,3,4,5,6};
+Int n=array.length;
+for(int i=0;i<n;i++){
+System.out.print(array[i]+” “);
+}
+Output : 1 2 3 4 5 6
+
+
+Qus  7 of ans
+Int array[][]={
+                      {1,2,3,4,5},
+                      {6,2,3,4,5},
+                      {1,8,3,4,5}   };
+Int row=3;
+
+
+for(int i=0;i<row;i++){
+for(int j=0;j<array[i].length;j++){
+System.out.print(array[i][j]+” “);
+}
+System.out.print();
+
+
+}
+                    
+
+
+Cracking the Coding Interview in JAVA - Foundation
