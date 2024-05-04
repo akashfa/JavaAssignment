@@ -1,0 +1,56 @@
+               Assignment Question Answer
+1 Write a simple String  program take input from user 
+    import java.util.*;
+    public class Example {
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the name::");
+    String name=sc.nextLine();
+    System.out.println(name);
+    }
+  }
+2 How do concatenate two string in java 
+    using arithmetic operator (+) we can concatenate two string 
+    String str1="Akash";
+    String str2="Sharma";
+    System.out.println(str1+str2);//AkashSharma
+3 How do you find the length of a string in java explain with an example 
+  we can find out  length of string with the help of using length() method
+  String str1="Akash";
+  int leng=str1.length();
+  System.out.println(leng);// 5
+4 How do you compare two string in java Given an example
+ using the equal() method we can compare  content two string if return true then string are equal otherwise return false
+ String name="Akash"
+ String name1="Akash"
+ if(name.equal(name1){
+   System.out.println("String are equal");
+  }else{
+     System.out.println("String are not equal");
+ }
+5 Write a program to find the length of the string  "refrigerator"
+   String str="refrigerator";
+   int n=str.length();
+   System.out.println(n);//12
+6 Write a program to check if the latter 'e' is present in the world "Umbrella"
+  String letter="Umbrella";
+    for(int i=0;i<letter.length();i++){
+        char ch=letter.charAt(i);
+        if(ch=='e'){
+            System.out.println("this letter is present");
+            break;
+        }
+    }
+7 Write a program to delete all consonants from the string "Hello,have a good day"
+    String conse ="Hello,have a good day";
+     String remove=""; 
+    for(int i=0;i<conse.length();i++){
+        char ch=conse.charAt(i);
+        if(!(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')){
+            
+           remove+=ch;
+        }
+    } 
+    System.out.println(remove);
+
+ 
