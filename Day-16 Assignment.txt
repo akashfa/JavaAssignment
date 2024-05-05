@@ -1,0 +1,220 @@
+         Assignment Question And Answer
+1 WAP to remove Duplicates from a string 
+  import java.util.*;
+
+public class Example {
+   
+    public static String removeDupli(String str){
+      Set<Character>unique=new LinkedHashSet<>();
+      StringBuilder sb=new StringBuilder();
+        if(str==null||str.isEmpty()){
+          return str;
+        }
+        for(char ch:str.toCharArray()){
+          unique.add(ch);
+        }
+        for(char uniChar:unique){
+         sb.append(uniChar);
+        }
+        return sb.toString();
+       
+    }
+
+    public static void main(String[] args) {
+          String str="aaaaaaaabbbbbbbbccccccc";
+          String remove=removeDupli(str);
+          System.out.println(remove);
+         }
+        }
+2 WAP to print all duplicate from a string 
+ import java.util.*;
+
+public class Example {
+   
+    public static void printDupli(String str){
+      Map<Character,Integer>charCount=new HashMap<>();
+      
+      for(char ch:str.toCharArray()){
+           int count=charCount.getOrDefault(ch,0);
+           charCount.put(ch, count+1);
+        }  
+        
+        for(Map.Entry<Character,Integer> entry:charCount.entrySet()){
+          if(entry.getValue()>1){
+            System.out.println(entry.getKey());
+          }
+        }
+      }
+    public static void main(String[] args) {
+          String str="NITIN";
+          printDupli(str);
+        }
+   }
+3 WAP to check this "2552" palindrome or not
+  import java.util.*;
+
+public class Example {
+   
+    public static boolean palindorm(String str){
+       int left=0;
+       int right=str.length()-1;
+       boolean flage=true;
+       while(left<right){
+          if(str.charAt(left)!=str.charAt(right)){
+             flage=false;   
+          } 
+          left++;
+          right--;
+       }
+       return flage;
+      }
+    public static void main(String[] args) {
+          String str="2552";
+         boolean flage= palindorm(str);
+         if(flage){
+          System.out.println("This is palindorm");
+         }else{
+          System.out.println("This is not palindorm");
+         }
+        }
+   }
+4 WAP to count the number of consonants vowels special character in a string 
+  import java.util.*;
+
+public class Example {
+   
+    public static void count(String str){
+       int consonantsCharCount=0;
+       int vowelsCharCount=0;
+       int spicaCount=0;
+       int n=str.length();
+       for(int i=0;i<n;i++){
+          char ch=str.charAt(i);
+          if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+            vowCount++;
+          }
+          else if(ch=='@'||ch=='#'||ch=='_'||ch=='&'){
+            spicaCount++;
+          }else{
+            
+            consCount++;
+          }
+       }
+       System.out.println(" consonants::"+ consonantsCharCount+"  vowels::"+vowelsCharCount+" specialCharacter::"+spicaCount);
+       
+    }
+  
+       public static void main(String[] args) {
+          String str="aeiounmcd@#_&";
+          count(str);
+         
+        }
+      }
+5 WAP to checking Anagram using in built method
+  import java.util.*;
+
+public class Example {
+   
+    public static boolean anagaram(String str1,String str2){
+      char chArray[]=str2.toCharArray();
+      char charArray[]=str1.toCharArray();
+      
+      Arrays.sort(chArray);
+      Arrays.sort(charArray);
+
+      String str3=new String(chArray);
+      String str4=new String(charArray);
+       if(str4.equals(str3)){
+            return true;
+         } 
+         return false;
+     }
+  public static void main(String[] args) {
+        String str1 = "listen";
+        String str2 = "silent";
+        boolean flage =anagaram(str1,str2);
+        if(flage){
+          System.out.println("This is Anagram");
+        }else{
+          System.out.println("This is not Anagram");
+        }
+         
+        }
+      }
+6 WAP to checking pangram using in built method in java
+  import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Example {
+   
+  public static boolean pangram(String str){
+    str=str.toLowerCase();
+     Set<Character>alphabate=new HashSet<>();
+     for(char ch:str.toCharArray()){
+      if(Character.isLetter(ch)){
+        alphabate.add(ch);
+      }
+     }
+     if(alphabate.size()==26){
+      return true;
+     }
+    return false;
+   }
+public static void main(String[] args) {
+      String str1 = "The quick brown fox jumps over the lazy dog";
+    
+      boolean flage =pangram(str1);
+      if(flage){
+        System.out.println("This is pangram");
+      }else{
+        System.out.println("This is not pangram");
+      }
+       
+      }
+    }
+7 WAP to print all unique character for string 
+  import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class Example {
+   
+  public static void uniquChar(String str){
+    str=str.toLowerCase();
+     Map<Character,Integer>alphabate=new HashMap<>();
+    
+     for(char ch:str.toCharArray()){
+         int count =alphabate.getOrDefault(ch, 0);
+         alphabate.put(ch, count+1);
+      }
+     
+     for(Map.Entry<Character,Integer> entry:alphabate.entrySet()){
+      
+        if(entry.getValue()==1){
+          System.out.print(entry.getKey());
+        }
+     }
+    
+   }
+public static void main(String[] args) {
+      String str1 = "AAAAAVVbcr";
+      uniquChar(str1);
+      }
+    }
+8 WAP to find the maximum occurring character in a string
+  public class Example {  
+public static void main(String[] args) {
+      String str1 = "abcdef";
+      char ch[]=str1.toCharArray();
+      char max=0;
+      for(int i=0;i<str1.length();i++){
+         if(ch[i]>0){
+          max=ch[i];
+         }
+    }
+       System.out.println(max);
+}
+}
