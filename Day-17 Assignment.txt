@@ -1,0 +1,60 @@
+     Assignment Question And Answer
+1 What is the mutable string in java give Example
+  java provide two class StringBuffer and StringBuilder this class is mutable
+  if these class object creating if we want modify string new object will not  be created 
+  StringBuffer sb=new StringBuffer("Akash");
+  sb.append("Sharam");
+  System.out.println(sb);
+2 Write a program reverse a string 
+  public class Example { 
+   public static void reverse(String str){
+    char[]ch=str.toCharArray();
+    int n =ch.length-1;
+    int i=0;
+    int j=n;
+    while(i<j){
+      char temp=ch[i];
+      ch[i]=ch[j];
+      ch[j]=temp;
+      i++;
+      j--;
+}
+     for (char c : ch) {
+      System.out.print(c);
+       }
+} 
+public static void main(String[] args) {
+  String str="PWSKILLS";
+  reverse(str);
+
+   }
+}
+3 WAP to reverse a sentence in java
+  
+
+public class Example { 
+   public static String reveString(String str){
+
+     StringBuffer sb=new StringBuffer();
+     for(int i=str.length()-1;i>=0;i--){
+        sb.append(str.charAt(i));
+
+     }
+     return sb.toString();
+   }
+     
+
+public static void main(String[] args) {
+  String str="Akash Sharam";
+  String name=reveString(str);
+  System.out.println(name);
+ 
+   
+ }
+ }
+4 WAP to short a string alphabetically
+  String str="acbdindl";
+  char ch[]=str.toCharArray();
+  Arrays.sort(ch);
+  System.out.println(new String(ch));
+ 
