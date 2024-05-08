@@ -1,0 +1,55 @@
+                Assignment Question And Answer
+1 What is need static keyword in java with example
+  Static keyword use different purpose basically use for memory management and code organization 
+  a. static variables
+     if we are creating variable using static keywords that is called static variable
+     creating single instance shared by all object of the class we can asses variable using 
+     instance of the class
+  b. static method 
+     if mark method the static we do not need creating an object directly call using only method name
+     inside the method we can asses other static members 
+  c. static block 
+     before creating an object executes static block of code 
+  d. static Nested class
+     if apply the static keyword inner class we do not need creating an object outer class only creating
+     object inner class and asses all method and variable inside method
+  class OuterClass {
+  static class InnerClass {
+    public void printMessage() {
+      System.out.println("Inner Class Message");
+    }
+  }
+
+  public static void main(String[] args) {
+    OuterClass.InnerClass inner = new InnerClass();
+    inner.printMessage();
+  }
+}
+2 What is the class loading and how java program executed 
+  Class loading  
+  when you run java program jvm load all necessary class demand using the loading class mechanism.
+  java program execution 
+  java source code-----> compile->>>>>>>>>.class file(byte code)---------->>>jvm-------class loading----------> execution 
+3 you can mark a local variable as static 
+  we can not mark local variable as static variable because locale variable scope method and block  level these variable are stored 
+ tamp data
+4 why static block executed before main method in java
+  at the time of class loading jvm  load all necessary  class find and loading linking which required to our program for run so 
+  before main method execution static block executed
+5 Why is static method also called  a class method
+  Static and class method both do not need to creating an object 
+6 Difference between static and instance variable 
+  Feature	Static Variable	                         Instance Variable
+  Declaration	static int count;	                  int number;
+  Scope	        Shared by all objects	                  Specific to each object
+  Lifetime	Exists throughout program execution	  Exists as long as the object exists
+  Access  	ClassName.count	                           objectName.number
+7 Difference between static and non static members 
+  Feature	Static members	                          non static members 
+  Declaration	static int count;	                  int number;
+  Scope	        Shared by all objects	                  Specific to each object
+  Lifetime	Exists throughout program execution	  Exists as long as the object exists
+  Access  	ClassName.count	                           objectName.number
+  Memory  Allocation	Allocated once during class loading	Allocated for each object instance
+  Usage	                Utility functions, constants	        Object-specific data, behavior
+ 
