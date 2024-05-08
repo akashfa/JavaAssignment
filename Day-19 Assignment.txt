@@ -1,0 +1,96 @@
+                 Assignment question And Answer
+1 What is encapsulation in java why it is called data hiding 
+  encapsulation is a fundamental concept object oriented programming that combine data and 
+  method that operate data into within in class
+ Data Hiding
+ Achieved through encapsulation decelerated  variable member as private 
+ we can access and modify  variable outside the class with the help of setter and getter method 
+2 What are the imported features of encapsulation
+  a. Data hiding  
+     Achieved through encapsulation making the variable as private 
+  b. Controlled Access 
+     we can access and modify the data help of the setter and getter method outside the class 
+  c. Abstraction 
+     encapsulation promotes abstraction by hiding internal details of a class user only interact public method 
+3 What are the getter and setter method in java explain with an example
+  . getter method 
+    we can assess the data outside  another class this method will be public 
+  . setter method 
+    We can modify the data with help of the setter method
+  
+class Test{
+private String name;
+private int age;
+public String getName() {
+   return name;
+}
+public void setName(String name) {
+   this.name = name;
+}
+public int getAge() {
+   return age;
+}
+public void setAge(int age) {
+   this.age = age;
+}
+}
+public class Example { 
+public static void main(String[] args) {
+  
+  Test t1=new Test();
+  t1.setName("Akash Shram");
+  t1.setAge(19);
+  System.out.println(t1.getName());
+  System.out.println(t1.getAge());
+ 
+   
+    }
+ }
+4 what is the use of this keyword explain with an example 
+  this keywords is reserved word use for the reference of the current object 
+  class Car {
+    private String color;
+
+    public void paint(String newColor) {
+        this.color = newColor; // 'this' refers to the current Car object
+        System.out.println("Car painted " + this.color);
+    }
+}
+5 What is the advantage of the encapsulation  
+  .increased code size 
+  .potential service overhead 
+  .increased development time 
+  .debuggability
+6 How to achieve encapsulation in java given an example 
+  create class inside the class making instance variable private and create setter and getter method public 
+  
+class Test{
+private String name;
+private int age;
+public String getName() {
+   return name;
+}
+public void setName(String name) {
+   this.name = name;
+}
+public int getAge() {
+   return age;
+}
+public void setAge(int age) {
+   this.age = age;
+}
+}
+public class Example { 
+public static void main(String[] args) {
+  
+  Test t1=new Test();
+  t1.setName("Akash Shram");
+  t1.setAge(19);
+  System.out.println(t1.getName());
+  System.out.println(t1.getAge());
+ 
+   
+    }
+ }
+ 
+     
