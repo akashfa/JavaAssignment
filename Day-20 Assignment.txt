@@ -1,0 +1,46 @@
+             Assignment Question And Answer
+1 What is the constructors 
+  Constructor is special type method this methos automatically call whenever crating an object of a class
+  this method no return type and Assigning initial value of object Attribute(variables)
+  name of the constructor always same name of the class\
+2 What is constructor chaining
+  Constructor is powerful technique that provide code reusability one constructor call another constructor
+  that is called constructor chaining
+  you can use this() keyword calling the another constructor within the same class
+  you can use super() keyword calling the parent constructor 
+3 Can we call a subclass constructor from a superclass constructor 
+  because at the time of  object correction  first superclass constructer call and you can use 
+  this key word this represent current object so we can not call subclass constructor from a superclass constructor
+4 What is happened if you keep a return type for a constructor 
+  if you keep a return type for a constructor you get Compile time error because constructer 
+  never allow return type of a constructor 
+5 What is no-arg constructor 
+  you can define own  no argument constructor with help of class name this constructor perform specific 
+  initialization task for the object 
+6 How is no argument constructor difference from the default constructor
+  compiler automatically provide default constructor for a class
+  No argument constructor explicitly crate with help of the class name 
+7 When do we need constructor overloading 
+  we need constructor overloading whenever you want creating object with the same name of class different way  
+  you create no argument constructor useful for creating an object with default value 
+  you create argument constructor useful for creating an object with argument value
+8 What is default constructor Explain with an example
+  whenever we are not creating own constructor then  compiler automatically provide default constructer for a class
+  class Person {
+  private String name;
+  private int age;
+}
+
+public class Main {
+  public static void main(String[] args) {
+    Person person1 = new Person(); // Uses the default constructor
+    System.out.println("Name: " + person1.name); // Might print null (default for String)
+    System.out.println("Age: " + person1.age); // Might print 0 (default for int)
+  }
+}
+
+  
+ 
+ 
+  
+  
