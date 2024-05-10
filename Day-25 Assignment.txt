@@ -1,0 +1,24 @@
+           Assignment Question and Answer
+1 What is an interface in java
+  Interface is blueprint that define behaver of  a class that specify what method 
+  should implement a class interface only give definition of a method this is not provide body of a method
+  it promote abstraction by focusing what a class do rather then how
+2 Which modifiers are allowed for method in an interface ? Explain with an example 
+  interface provide by default all method  public and abstract inside the interface you can write public method
+  does not make any scene interface are meant for public constrain 
+  public interface Shape {
+  public abstract double getArea(); // Implicitly public and abstract
+      }
+3 What is the use of interface in java or why do we use an interface in java
+  interface in java powerful tool that achieve  abstraction and lose coupling ,for multiple inheritance 
+  and enabling polymorphism. They contribute to creating well-structured, flexible, and maintainable code.
+4 What is the difference between abstract class and interface in java
+  Abstract Class
+  whenever creating a abstraction class we need mark class abstract inside the class we can provide method of body
+  Interface 
+  At the time of creating interface do not need any abstract keyword  inside the interface we can provide body of method
+  only we can write definition of a method and method by default abstract and public  
+  
+
+  
+   
